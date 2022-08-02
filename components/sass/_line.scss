@@ -1,0 +1,30 @@
+#line{
+    
+    display: flex;
+    padding: 1em;
+    color: $GrayishBlue;
+    
+}
+
+._line-one{
+    width: 40%;
+}
+
+._line-two{
+    width: 40%;
+}
+
+._vertical-strokes{
+    width: 1%;
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: 800;
+    color: $LightCyan;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.vertical-space{
+    display: flex;
+}

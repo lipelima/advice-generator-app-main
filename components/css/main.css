@@ -4,16 +4,76 @@
 }
 
 body {
-  background-color: hsl(217deg, 19%, 24%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218deg, 23%, 16%);
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 28px;
+  max-width: 1440px;
+}
+
+#container {
+  border: 2px solid red;
+  background-color: hsl(217deg, 19%, 24%);
+  color: hsl(193deg, 38%, 86%);
+  width: 50%;
+  height: 30%;
+  margin: 10% auto;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+#title {
+  border: 2px solid blue;
+  font-size: 8px;
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 3px;
+  padding: 25px;
+}
+
+#content {
+  border: 2px solid green;
+  padding: 25px;
+  text-align: center;
+  font-size: 28px;
+}
+
+#line {
+  display: flex;
+  padding: 1em;
+  color: hsl(217deg, 19%, 38%);
+}
+
+._line-one {
+  width: 40%;
+}
+
+._line-two {
+  width: 40%;
+}
+
+._vertical-strokes {
+  width: 1%;
+  margin-top: 5px;
+  padding: 10px;
+  font-weight: 800;
+  color: hsl(193deg, 38%, 86%);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.vertical-space {
+  display: flex;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: hsl(193deg, 38%, 86%);
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);

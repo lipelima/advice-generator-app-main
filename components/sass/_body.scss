@@ -1,8 +1,11 @@
 body{
-    background-color: $DarkGrayishBlue;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: $DarkBlue;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    font-size: 28px;
+    max-width: 1440px;
 }
